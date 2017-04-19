@@ -15,6 +15,11 @@ theme_labstat <- function() {
         axis.line = element_line(size = 0.5,
                                  colour = 'grey'),
         legend.title = element_text(size = 10),
-        legend.text = element_text(size = 10)
+        legend.text = element_text(size = 10),
+        legend.position = ('top'),
+        legend.key.size = unit(3, units = 'mm'),
+        strip.text.y = element_text(angle = 180),
+        strip.background = element_blank(),
+        strip.placement = 'outside'
     )
 }

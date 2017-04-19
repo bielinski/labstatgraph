@@ -7,7 +7,7 @@
 paleta.raporty(kolory)
 }
 \arguments{
-\item{kolory}{wektor nazw kolorow do zastosowania (czerwony, zielony, fioletowy, niebieski, granatowy, pomaranczowy, szary)}
+\item{kolory}{wektor nazw kolorow do zastosowania (czerwony, zielony, fioletowy, niebieski, granatowy, pomaranczowy, szary, malinowy, zolty)}
 }
 \description{
 Zwraca wektor z wybranymi kolorami z palety stosowanej w raportach.

@@ -1,6 +1,6 @@
 #' Paleta kolorow do raportow
 #'
-#' @param kolory wektor nazw kolorow do zastosowania (czerwony, zielony, fioletowy, niebieski, granatowy, pomaranczowy, szary)
+#' @param kolory wektor nazw kolorow do zastosowania (czerwony, zielony, fioletowy, niebieski, granatowy, pomaranczowy, szary, malinowy, zolty)
 #'
 #' @description Zwraca wektor z wybranymi kolorami z palety stosowanej w raportach.
 #'
@@ -15,7 +15,9 @@ paleta.raporty <- function(kolory) {
         niebieski = rgb(0, 176, 240, maxColorValue = 255),
         granatowy = rgb(8, 38, 77, maxColorValue = 255),
         pomaranczowy = rgb(220, 90, 15, maxColorValue = 255),
-        szary = rgb(178, 180, 179, maxColorValue = 255)
+        szary = rgb(178, 180, 179, maxColorValue = 255),
+        malinowy = rgb(224, 0, 52, maxColorValue = 255),
+        zolty = rgb(255, 192, 0, maxColorValue = 255)
     )
     output <- paleta[kolory]
     attributes(output) <- NULL

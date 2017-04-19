@@ -1,6 +1,6 @@
-#' ggplot2 LASIE theme
+#' ggplot2 LASiE theme
 #'
-#' @description ggplot2 LASIE theme.
+#' @description ggplot2 LASiE theme.
 #'
 #' @export
 #'

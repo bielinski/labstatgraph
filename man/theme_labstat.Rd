@@ -2,10 +2,10 @@
 % Please edit documentation in R/theme_labstat.R
 \name{theme_labstat}
 \alias{theme_labstat}
-\title{ggplot2 LASIE theme}
+\title{ggplot2 LASiE theme}
 \usage{
 theme_labstat()
 }
 \description{
-ggplot2 LASIE theme.
+ggplot2 LASiE theme.
 }

@@ -21,5 +21,9 @@ theme_labstat <- function() {
         strip.text.y = element_text(angle = 180),
         strip.background = element_blank(),
         strip.placement = 'outside'
+<<<<<<< HEAD
+=======
+    )
+>>>>>>> a2975617f1d5c4a8aea7da3380e7c2174c5a9fbd
     )
 }

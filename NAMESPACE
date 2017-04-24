@@ -2,5 +2,6 @@
 
 export(cnvrt.prcnt)
 export(paleta.raporty)
+export(str_wrap_sieroty)
 export(theme_labstat)
 import(grDevices)

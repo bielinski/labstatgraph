@@ -2,6 +2,7 @@
 
 export(cnvrt.prcnt)
 export(font.size)
+export(label_location)
 export(paleta.raporty)
 export(str_wrap_sieroty)
 export(theme_labstat)

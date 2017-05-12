@@ -7,5 +7,5 @@
 #'
 
 label_location <- function(data, ratio = 30) {
-    data + max(data)/ratio
+    data + max(data, na.rm = T)/ratio
 }

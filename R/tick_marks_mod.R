@@ -56,7 +56,7 @@ tick_marks_mod <-
                     )
             }
         }
-        tmp <- gtable::ggplot_gtable(ggplot_build(tmp))
+        tmp <- ggplot_gtable(ggplot_build(tmp))
         tmp$layout$clip[grepl(x = tmp$layout$name,pattern =  "panel")] <- "off"
         return(tmp)
     }

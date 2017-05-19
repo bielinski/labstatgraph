@@ -14,7 +14,7 @@ tick_marks_mod <-
     function(plot,
              variable,
              ax = 'x',
-             tick.length = 0.01, tick.colour = 'grey') {
+             tick.length = NULL, tick.colour = 'grey') {
         m <- grid::grid.lines(
             x = c(0, 1),
             y = c(0, 1),
@@ -30,6 +30,14 @@ tick_marks_mod <-
         brk <- seq(from = 0.5,
                    by = 1,
                    length.out = liczba + 1)
+        if (ax == 'x') {
+            second.variable.brk <- ggplot_build(plot)$layout$panel_ranges[[1]]$x.major_source
+        } else {
+            second.variable.brk <- ggplot_build(plot)$layout$panel_ranges[[1]]$y.major_source
+        }
+        if (is.null(tick.length)) {
+            tick.length <- (second.variable.brk[2]-second.variable.brk[1])/25
+        }
         tmp <- plot
         tmp <-
             tmp + coord_flip(expand = F, xlim = c(min(brk), max(brk))) + theme(axis.ticks.y = element_blank())

@@ -4,7 +4,7 @@
 \alias{tick_marks_mod}
 \title{Dodaje znaczniki na osi pomiędzy etykietami zmiennych}
 \usage{
-tick_marks_mod(plot, variable, ax = "x", tick.length = 0.01,
+tick_marks_mod(plot, variable, ax = "x", tick.length = NULL,
   tick.colour = "grey")
 }
 \arguments{

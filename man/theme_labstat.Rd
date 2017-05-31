@@ -4,7 +4,10 @@
 \alias{theme_labstat}
 \title{ggplot2 LASiE theme}
 \usage{
-theme_labstat()
+theme_labstat(colour = "grey")
+}
+\arguments{
+\item{colour}{kolor osi}
 }
 \description{
 ggplot2 LASiE theme.

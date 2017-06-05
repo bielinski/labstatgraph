@@ -13,6 +13,9 @@ expand_plot <- function(plot, axis = "y", mnoznik = 1.2) {
         tmp.max <- tmp.max*100
         limit <- ceiling(tmp.max*mnoznik)
         limit <- limit/100
+        if (limit>1) {
+            limit <- 1
+        }
     } else {
         limit <- ceiling(tmp.max*mnoznik)
     }

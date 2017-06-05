@@ -1,7 +1,7 @@
 Package: labstatgraph
 Type: Package
 Title: Funkcje wspomagające tworzenie wykresów do raportów LASiE
-Version: 0.2.1
+Version: 0.2.2
 Author: Jakub Nowicki
 Maintainer: Jakub Nowicki <jakub.nowicki@opi.org.pl>
 Description: Funkcje wspomagające tworzenie wykresów do raportów LASiE.

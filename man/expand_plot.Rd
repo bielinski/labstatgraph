@@ -4,12 +4,14 @@
 \alias{expand_plot}
 \title{Rozszerzenie wykresu do rozmiaru obejmującego etykiety}
 \usage{
-expand_plot(plot, axis = "y")
+expand_plot(plot, axis = "y", mnoznik = 1.2)
 }
 \arguments{
 \item{plot}{wykres do rozszerzenia}
 
 \item{axis}{os do rozszerzenia}
+
+\item{mnoznik}{mnożnik powiększenia wykresu}
 }
 \description{
 Rozszerzenie wykresu do rozmiaru obejmującego etykiety
